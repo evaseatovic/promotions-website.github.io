@@ -13,7 +13,7 @@ creating a check list
 ---
 
 ### to do list
-- [x] <del> create a to do list [x] </del>
+- [x] <del> create a to do list </del>
 - [ ] add more items from the paper
 
 ---
