@@ -15,5 +15,6 @@ creating a check list
 ### to do list
 - [x] <del> create a to do list </del>
 - [ ] add more items from the paper
-
+- [ ] get information about tahereh mafi
+- [ ] get info about the books and series 
 ---
