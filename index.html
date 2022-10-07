@@ -26,18 +26,91 @@
 
     <!-- Cyber Security Note about JavaScript in Browsers-->
     <noscript>Running JavaScript is not necessary in the HTML page ... FYI; your feature to execute scripts is turned off</noscript>
+    
+
+    <style>
+        *{
+            box-sizing: border-box;
+            font-size: 2vw;
+            
+        }
+          div{
+            border: thin solid goldenrod;
+        }
+         .header{
+            border:2px solid hotpink;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu {
+                width: 100%;
+              text-align: center;
+                padding: 15px;
+                border: 2px solid hotpink;    
+            }
+
+        .main {
+                width: 75%;
+                float: left;
+                padding: 15px;
+                border: 2px solid rgb(112, 190, 56);
+              
+            }
+
+         .aside {
+            width: 25%;
+    border: 2px solid rgb(190, 56, 123);
+    float: right;
+    padding: 15px;
+    height: auto;
+            
+            }
+            
+        .section{
+            width: 75%;
+             float: right;
+             padding: 15px;
+            border: 2px solid rgb(214, 121, 46);
+           
+        }  
+        .article{
+            width: 30%;
+             float: left;
+             padding: 15px;
+            border: 2px solid rgb(119, 24, 132);
+            
+        }
+        .footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+          border: 2px solid rgb(27, 116, 61);
+        }
+             
+     </style>
     </head>
-
     <body>
-      </header>Header<header>
-      <nav>Navigation</nav>
-      <aside>Aside</aside>
-      <article>Article</article>
-      <section>Section</section>
+        <div>
+        <header class="header"><h1>Flexbox</h1></header>
+        <nav class="menu"><h1>Navigation</h1></nav>
+            <Aside class="aside">
+                <a>
+                    This is a aside space
+                </a>
+                <ul>
+                    <li><a href="https://viktorialysenko.github.io/Learning-html/">Index page</a></li>
+                  </ul>
+                <br><br><br><br>
+            </Aside>
+        <main class="main"><h1>Main space</h1>
+        <section class="section"><h1>Section</h1>
+            <article class="article">Article</article>
+        </section>
+    </main>
+      </div>
     </body>
-
-    <footer>
-      <blockquote cite="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inspirational-quote-booker-washington-1658173567.png?crop=1xw:1xh;center,top&resize=980:*">
+    <footer class="footer">
        <!-- Date Accessed 20220919 -->
       </blockquote>
       <p>
